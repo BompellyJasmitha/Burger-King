@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#ApplDetails{
+    width: 100%;
+    height:60vh;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+#ApplDetailsDiv1{
+    width: 40%;
+    height:60vh;
+    background-color: rgba(228, 228, 228, 0.04);
+}
+
+#ApplDetailsDiv1 img{
+    width: 90%;
+    height:55vh;
+    position: relative;
+    left:30px;
+    bottom:60px;
+    background-color: rgba(228, 228, 228, 0.04);
+}
+
+#ApplDetailsDiv2{
+    width: 50%;
+    height:60vh;
+    margin-left: 100px;
+    background-color: rgba(228, 228, 228, 0.04);
+
+}
+#applDetailsImg{
+    width:100%;
+
+}
+.applDetailsStore{
+    width:50%;
+    height:120px;
+}
+
+#ApplDetailsDiv2 span{
+    color: rgb(80, 35, 20);
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgba(228, 228, 228, 0.04);
+}
+
+#applDetailsImgFooter{
+    width: 100%;
+    height:50px;
+    background-color: rgb(80, 35, 20); 
+    color:rgb(245, 235, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:60px;
+}
+
+#applDetailsImgFooter{
+    
+}

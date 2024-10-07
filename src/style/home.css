@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#Homediv{
+    width:100%;
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    /* margin-bottom: 50px; */
+
+    /* border: 5px solid rgb(214, 35, 0); */
+}
+
+#homediv1{
+    width:40%;
+    height:60vh;
+    position: relative;
+    right:100px;
+
+}
+
+#homediv1 img{
+    width:100%;
+    height:29vh;
+    position:relative;
+    top:30px;
+    right: 10px;
+}
+
+#homediv2{
+    width:45%;
+    height:50vh;
+    background: url("https://cdn.sanity.io/images/czqk28jt/prod_bk_us/3069ba03bb3d496a3dcc70a7b2ef761d6ac6cfec-934x400.png?w=1125&q=80&fit=max&auto=format")no-repeat center/760px 400px;
+    position: relative;
+    right:120px;
+    top:60px;   
+
+}
+
+#button1{
+    background-color: rgb(214, 35, 0);
+    color:rgb(245, 235, 220);
+    width: 300px;
+    height:50px;
+    font-size: medium;
+    font-weight: 900;
+    position: relative;
+    left: 130px;
+    top: 60px;
+}
+
+#button1 i{
+    background-color: rgb(214, 35, 0);
+    color:rgb(245, 235, 220);
+}
+
+#button2{
+    background-color:rgb(245, 235, 220); 
+    color:rgb(214, 35, 0);
+    width: 300px;
+    height:50px;
+    font-size: medium;
+    font-weight: 900;
+    position: relative;
+    left: 130px;
+    top: 80px;
+    border: 1px solid rgb(214, 35, 0);
+}
+
+#button2 i{
+    background-color:rgb(245, 235, 220); 
+    color:rgb(214, 35, 0);
+}
+
